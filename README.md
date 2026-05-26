@@ -1,4 +1,4 @@
-# Day1-Task 
+# Task--1
 ## Build a personal profile card with name, photo placeholder &amp; bio .
 ## Personal Profile Card Project – README
 Project Overview

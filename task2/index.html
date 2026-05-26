@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <title>task 2</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <h1>To-Do App</h1>
+      <div class="container">
+        <input type="text" id="taskInput" placeholder="Enter a task" />
+        <button id="addTaskButton">Add Task</button>
+      </div>
+      <!-- Add task  -->
+      <ul id="taskList"></ul>
+
+      <!-- remove one and clear all buttons -->
+
+      <div class="checkbox-container">
+        <button id="clearCompletedButton">Clear Completed Tasks</button>
+        <button id="clearAllButton">Clear All Tasks</button>
+      </div>
+
+      <!-- Task count and completed count -->
+       <div class="stats">
+      <div id="taskCount">Total Tasks: 0</div>
+      <div id="completedCount">Completed Tasks: 0</div>
+    </div>
+
+      <!-- filter for completed tasks -->
+
+      <div id="filterContainer" class="filter-container">
+        <button id="all">All</button>
+        <button id="completed">Completed</button>
+        <button id="pending">Pending</button>
+      </div>
+    </div>
+  </body>
+  <script src="javascript.js"></script>
+</html>
